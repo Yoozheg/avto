@@ -48,7 +48,15 @@ header{}
 
 #price{}
 
-#number{}
+#number{background-color:black ;color:white;}
+#number main{height:197px;}
+#number p{display:inline-block;border-left:2px solid white;height:197px;vertical-align:top;padding-left:10px;font:15px "Trebuchet MS"}
+#number p strong{font-weight:bold}
+#number p.b1{width:230px;border-left:none;}
+#number p.b2{width:230px;}
+#number p.b3{width:230px;}
+#number p.b4{width:237px;}
+#number p span{display:block;font:bold 90px "Trebuchet MS";}
 
 #projects{}
 
