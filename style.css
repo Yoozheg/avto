@@ -20,7 +20,10 @@ header{}
 
 #what{}
 
-#avto{}
+#avto{background-color:white}
+#avto h2{text-transform:uppercase;text-align:center;font:bold 46px "Trebuchet MS";color:#ffcb00;padding-top:35px}
+#avto h3{font:bold 21px "Trebuchet MS";text-align:center;color:#a3a3a3;padding-top:20px}
+#avto img{padding:40px 20px;}
 
 #present{}
 
