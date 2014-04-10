@@ -49,16 +49,25 @@ header{}
 #price{}
 
 #number{background-color:black ;color:white;}
-#number main{height:197px;}
-#number p{display:inline-block;border-left:2px solid white;height:197px;vertical-align:top;padding-left:10px;font:15px "Trebuchet MS"}
+#number main{height:205px;}
+#number p{display:inline-block;border-left:2px solid white;height:205px;vertical-align:top;padding-left:10px;font:15px "Trebuchet MS";}
 #number p strong{font-weight:bold}
 #number p.b1{width:230px;border-left:none;}
 #number p.b2{width:230px;}
 #number p.b3{width:230px;}
 #number p.b4{width:237px;}
-#number p span{display:block;font:bold 90px "Trebuchet MS";}
+#number p span{display:block;font:bold 90px "Trebuchet MS";margin:-8px 0}
 
-#projects{}
+#projects{background-color:#e7e5dd;background:url(img/fon_vipoln_rabot.png) no-repeat top center;height:1092px}
+#projects h2{font:bold 62px "Trebuchet MS"; color:#ffcb00;text-align:center;padding:50px 0;text-transform:uppercase}
+#projects h3{font:bold 25px "Trebuchet MS";text-align:center;text-transform:uppercase;padding-bottom:15px}
+#projects div p{font:20px "Trebuchet MS";}
+#projects div p span{font-size:25px}
+#projects div p.right{text-align:right;}
+.d2{background:url(img/primer1.jpg) no-repeat center top;padding:267px 73px 0 73px;}
+#projects img{margin:38px 0 38px 240px;}
+#projects img.button{margin-left:427px;margin-top:35px}
+.d1{background:url(img/primer2.jpg) no-repeat center top;padding:267px 73px 0 73px;}
 
 #map{}
 
