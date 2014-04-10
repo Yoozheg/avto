@@ -27,7 +27,22 @@ header{}
 
 #present{}
 
-#why{}
+#why{color:white;background:url('img/fon3.jpg') top center no-repeat;height:991px}
+#why main{text-align:center;}
+#why h2{font:bold 62px "Trebuchet MS";text-transform:uppercase;padding-top:25px;}
+#why div{padding-top:25px;}
+#why div.whyfirst{padding-bottom:150px;}
+#why div h3{font:bold 18px "Trebuchet MS"}
+#why div p{font:15px "Trebuchet MS";padding-top:5px}
+#why article{display:inline-block;padding-top:190px; width:180px; height:50px;margin:0 10px;vertical-align:top}
+#why article.f1{background:url('img/f1.png') top center no-repeat;}
+#why article.f2{background:url('img/f2.png') top center no-repeat;}
+#why article.f3{background:url('img/f3.png') top center no-repeat;}
+#why article.f4{background:url('img/f4.png') top center no-repeat;}
+#why article.f5{background:url('img/f5.png') top center no-repeat;}
+#why article.f6{background:url('img/f6.png') top center no-repeat;}
+#why article.f7{background:url('img/f7.png') top center no-repeat;}
+#why article.f8{background:url('img/f8.png') top center no-repeat;}
 
 #sale{}
 
