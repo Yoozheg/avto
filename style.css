@@ -14,18 +14,42 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 section{clear:both}
 main{margin:0 auto;width:998px;position:relative}
 
-header{}
+header{text-align:right;background:#e7e5dd;position:fixed;top:0;left:0;right:0;z-index:8}
+header main{background:url('img/logo.png') left center no-repeat;}
+header h3{color:#868686;font:bold 28px "Trebuchet MS";text-align:right;padding:10px 0;}
 
-#header{}
+form{background:#fbfbfb;min-width:280px;max-width:300px;text-align:center;padding:18px 0;margin:0 auto;color:black;text-shadow:none;font-size:15px}
+form p,form h4{margin-bottom:15px}
+form h4{text-transform:uppercase}
+form h4 + p{margin-top:-17px}
+form input{border:1px solid silver;background:transparent;text-align:center;margin:4px auto;height:44px;color:black;border-radius:7px;width:84%}
+form input[type="file"]{width:1px;height:1px;margin:0;padding:0;font-size:1px;color:white;border:none;position:absolute;top:0;left:0}
+form button{cursor:pointer;text-transform:uppercase;color:white;background:orange linear-gradient(to bottom, #FFD83E, #FF9C00);border:1px solid orange;border-radius:8px;box-shadow:#FFF 0 0 2px 0 inset, rgba(0,0,0,.6) 0 4px 3px;font-weight:bold;line-height:44px;width:86%;text-align:center;margin:5px auto}
 
-#what{}
+#header{height:647px;margin-top:115px;background:url(img/fon1.jpg) center top no-repeat}
+#header h1,#header h2{color:white;font-size:73px;font-weight:bold;text-align:center;text-transform:uppercase;padding-top:130px}
+#header h2{font-size:24px;padding:0 0 45px}
+
+#what{text-align:center;background:#e7e5dd; padding-bottom:20px;}
+#what h3{color:#ffcb00;font:bold 62px "Trebuchet MS";text-transform:uppercase;padding:20px 0;}
+#what div{margin:30px 0;}
+#what article{display:inline-block;width:270px;text-align:center;padding:0 25px;;}
+#what h5{color:#757575;font:18px "Trebuchet MS";text-transform:uppercase;padding-bottom:260px;}
+#what p{margin-top:20px;background:url('img/zakaz_uslug.png') center center no-repeat;width:262px;height:48px;font:bold 17px "Trebuchet MS";padding-top:12px;color:white;text-transform:uppercase;}
+#what article.w1 h5{background:url('img/1.png') center bottom no-repeat;}
+#what article.w2 h5{background:url('img/2.png') center bottom no-repeat;}
+#what article.w3 h5{background:url('img/3.png') center bottom no-repeat;}
+#what article.w4 h5{background:url('img/4.png') center bottom no-repeat;}
+#what article.w5 h5{background:url('img/5.png') center bottom no-repeat;}
+#what article.w6 h5{background:url('img/6.png') center bottom no-repeat;}
 
 #avto{background-color:white}
 #avto h2{text-transform:uppercase;text-align:center;font:bold 46px "Trebuchet MS";color:#ffcb00;padding-top:35px}
 #avto h3{font:bold 21px "Trebuchet MS";text-align:center;color:#a3a3a3;padding-top:20px}
 #avto img{padding:40px 20px;}
 
-#present{}
+.form{background:black url(img/fon_zayavki.jpg) center top no-repeat;height:439px}
+.form h2{color:white;font-size:29px;font-weight:bold;text-align:center;padding:25px 0;text-transform:uppercase}
 
 #why{color:white;background:url('img/fon3.jpg') top center no-repeat;height:991px}
 #why main{text-align:center;}
@@ -43,10 +67,6 @@ header{}
 #why article.f6{background:url('img/f6.png') top center no-repeat;}
 #why article.f7{background:url('img/f7.png') top center no-repeat;}
 #why article.f8{background:url('img/f8.png') top center no-repeat;}
-
-#sale{}
-
-#price{}
 
 #number{background-color:black ;color:white;}
 #number main{height:205px;}
@@ -69,13 +89,20 @@ header{}
 #projects img.button{margin-left:427px;margin-top:35px}
 .d1{background:url(img/primer2.jpg) no-repeat center top;padding:267px 73px 0 73px;}
 
-#map{}
+#price{}
+#price div{margin:0 auto;width:727px;height:442px;background:url('img/avto.png') center center no-repeat;position:relative}
+#price p{position:absolute;width:100px;height:32px;background:url('img/knopki_dla_avto.png') center center no-repeat;font:bold 17px "Trebuchet MS";text-transform:uppercase;color:white;text-align:center;padding-top:5px;}
+.button_price{cursor:pointer}
+.kapot{top:30px;left:30px;}
+.krisha{top:20px;left:100px;}
+.fara{top:50px;left:10px;}
+.per_krilo{top:50px;left:10px;}
+.dveri{top:50px;left:10px;}
+.zad_krilo{top:50px;left:10px;}
+.bamper{top:50px;left:10px;}
 
-footer{}
-
-#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
+#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none;z-index:10}
 #splash main{text-align:center;top:150px}
-#splash p{color:white;text-align:center}
 #splash form{margin:0 auto 0;position:static}
 
 #copyright{text-align:center;font-size:12px;color:gray;font-family:Calibri}

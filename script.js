@@ -100,7 +100,7 @@
  }
  
  window.onload = function(e){
-  var forms = document.querySelectorAll('form img');
+  var forms = document.querySelectorAll('form button:not(id)');
   for(var i = 0; i < forms.length; ++i){
    forms[i].onclick = submit;
   }
@@ -108,13 +108,24 @@
    var form = this.parentNode;
    var inputs = form.querySelectorAll('input');
    var data = {};
+   var e;
    for(var i = 0; i < inputs.length; ++i){
-    if(inputs[i].value.length > 0 && inputs[i].checkValidity()) data[inputs[i].name] = inputs[i].value; else return alert("Как минимум одно из полей не заполнено!")
+    e = inputs[i];
+    if(e.value && e.value.length > 0 && e.checkValidity()){
+     data[e.name] = e.type === 'file' ? e.files[0] : e.value || e.getAttribute('value');
+    }else{
+     if(e.files && e.files.length){
+      data[e.name] = e.files[0];
+     }else return alert("Как минимум одно из полей не заполнено!");
+    }
    }
    ajax(data, 'server.php', function(r){
     alert(r);
    });
    $('#splash').style.display = 'none';
+   event.preventDefault();
+   event.stopPropagation();
+   event.cancelBubble = true;
    return false;
   }
 	
@@ -127,6 +138,13 @@
    e.cancelBubble = true;
 	 return false;
 	}
+  $('#fotoupload').onclick = function(e){
+   $('form input[type="file"]').click();
+   e.preventDefault();
+   e.stopPropagation();
+   e.cancelBubble = true;
+   return false;
+  }
 	
 	var buttons = document.querySelectorAll('.button');
 	function buttonClick(){

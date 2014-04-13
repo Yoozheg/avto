@@ -1,6 +1,6 @@
 <!doctype html>
 <html><head><meta charset="utf-8">
- <title>Строим здания!</title>
+ <title>Ремонт и покраска авто!</title>
  <link rel="stylesheet" href="style.css" />
  <script src="script.js"></script>
 </head>
@@ -8,16 +8,37 @@
 
 <header>
 <main>
+ <h3>8 (499) 271-77-43</h3>
+ <img src="img/zakazat.png" class="button" />
 </main>
 </header>
 
 <section id='header'>
 <main>
+ <h1>Центр кузовного<br />ремонта автомобилей</h1>
+ <h2>Покраска и кузовной ремонт автомобилей в Москве</h2>
+ <form>
+  <p>Оставьте заявку прямо сейчас<br />и получите скидку 10% на любую услугу</p>
+  <input name="name" type="text" placeholder="Ваше имя" required />
+  <input name="phone" type="tel" placeholder="Ваш телефон" required />
+  <button>Оставить заявку</button>
+ </form>
 </main>
 </section>
 
 <section id='what'>
 <main>
+ <h3>что мы предлагаем</h3>
+ <div>
+  <article class="w1"><h5>покраска деталей<br />&nbsp</h5><p class="button">заказать покраску</p></article>
+  <article class="w2"><h5>полировка кузова<br />автомобиля</h5><p class="button">заказать полировку</p></article>
+  <article class="w3"><h5>замена любых стекол<br />&nbsp</h5><p class="button">заказать замену</p></article>
+ </div>
+ <div>
+  <article class="w4"><h5>ремонт бамперов и<br />пластиковых элементов</h5><p class="button">заказать ремонт</p></article>
+  <article class="w5"><h5>кузовной ремонт<br />&nbsp</h5><p class="button">заказать ремонт</p></article>
+  <article class="w6"><h5>подбор и заказ запчастей<br />для вашего автомобиля</h5><p class="button">заказать подбор</p></article>
+ </div>
 </main>
 </section>
 
@@ -29,8 +50,15 @@
 </main>
 </section>
 
-<section id='present'>
+<section id='present' class="form">
 <main>
+ <h2>При покраске от 2-х деталей, полировка смежных<br/>близлежащих деталей в подарок</h2>
+ <form>
+  <p>Оставьте заявку прямо сейчас<br />и получите скидку 10% на любую услугу</p>
+  <input name="name" type="text" placeholder="Ваше имя" required />
+  <input name="phone" type="tel" placeholder="Ваш телефон" required />
+  <button>Оставить заявку</button>
+ </form>
 </main>
 </section>
 
@@ -113,13 +141,31 @@
 </main>
 </section>
 
-<section id='sale'>
+<section id='sale' class="form">
 <main>
+ <h2>Загрузи фотографию и получи<br/>скидку в 1000 рублей на ремонт</h2>
+ <form>
+  <h4>Рассчитать стоимость<br />ремонта по фото</h4>
+  <input name="name" type="text" placeholder="Ваше имя" required />
+  <input name="phone" type="tel" placeholder="Ваш телефон" required />
+  <input name="image" type="file" />
+  <button id="fotoupload">Загрузить фотографию</button>
+  <button>Оставить заявку</button>
+ </form>
 </main>
 </section>
 
 <section id='price'>
 <main>
+ <div>
+  <p class="button_price kapot">капот</p>
+  <p class="button_price krisha">крыша</p>
+  <p class="button_price fara">фара</p>
+  <p class="button_price per_krilo">крыло</p>
+  <p class="button_price dveri">двери</p>
+  <p class="button_price zad_krilo">крыло</p>
+  <p class="button_price bamper">бампер</p>
+ </div>
 </main>
 </section>
 
@@ -145,26 +191,29 @@
 </section>
 
 <section id='map'>
-<main>
-</main>
+ <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=PatKWEfsYtetJOt26ncbycBn8Bzi2y1U&height=418"></script>
 </section>
 
-<footer>
+<footer class="form">
 <main>
+ <h2>Скидка 15% на полировку всего кузова автомобиля<br/>или на защитную полировку кузова автомобиля</h2>
+ <form>
+  <h4>Заявка на консультацию</h4>
+  <p>По любому вопросу касательно тюнинга</p>
+  <input name="name" type="text" placeholder="Ваше имя" required />
+  <input name="phone" type="tel" placeholder="Ваш телефон" required />
+  <button>Оставить заявку</button>
+ </form>
 </main>
 </footer>
 
-<div id="splash">    <!-- ПРОВЕРЬ ТЕКСТ -->
+<div id="splash">
  <main>
-  <form class="std">
-   <div class="dark">
-    <h4>Оставьте заявку и получите<br/>скидку 5% на стоимость сэндвич-панелей!</h4>
-    <p>
-     <input type="text" name="name" placeholder="Ваше имя" required />
-     <input type="tel" name="phone" placeholder="Ваш телефон" required />
-     <img src="img/knopka.png" />
-    </p>
-   </div>
+  <form>
+   <p>Оставьте заявку прямо сейчас<br />и получите скидку 10% на любую услугу</p>
+   <input type="text" name="name" placeholder="Ваше имя" required />
+   <input type="tel" name="phone" placeholder="Ваш телефон" required />
+   <button>Оставить заявку</button>
   </form>
  </main>
 </div>
