@@ -90,16 +90,27 @@ form button{cursor:pointer;text-transform:uppercase;color:white;background:orang
 .d1{background:url(img/primer2.jpg) no-repeat center top;padding:267px 73px 0 73px;}
 
 #price{}
-#price div{margin:0 auto;width:780px;height:442px;background:url('img/avto.png') center center no-repeat;position:relative}
+#price main{text-align:center;}
+#price h3{color:#ffcb00;font:bold 62px "Trebuchet MS";text-transform:uppercase; padding-top:30px;padding-bottom:60px;}
+#price main>div{margin:0 auto;width:900px;height:480px;background:url('img/avto.png') center center no-repeat;position:relative}
 #price p{position:absolute;width:100px;height:32px;background:url('img/knopki_dla_avto.png') center center no-repeat;font:bold 17px "Trebuchet MS";text-transform:uppercase;color:white;text-align:center;padding-top:5px;}
 .button_price{cursor:pointer}
-.kapot{top:60px;left:80px;}
-.krisha{top:65px;left:360px;}
-.fara{top:110px;left:5px;}
-.per_krilo{top:150px;left:100px;}
-.dveri{top:235px;left:300px;}
-.zad_krilo{top:275px;left:480px;}
-.bamper{top:350px;left:600px;}
+.kapot{top:100px;left:140px;}
+.krisha{top:105px;left:420px;}
+.fara{top:150px;left:65px;}
+.per_krilo{top:190px;left:160px;}
+.dveri{top:275px;left:350px;}
+.zad_krilo{top:315px;left:540px;}
+.bamper{top:390px;left:660px;}
+.splash_price{position:absolute;top:35%;left:35%;background:#f4ead1;border-radius:5px;padding:10px 20px;display:none;}
+.splash_price::before, .splash_price::after {content:'';position: absolute;left: 20px;bottom: -20px;border: 10px solid transparent;border-top:10px solid #f4ead1;}
+.splash_kapot{top:20px;left:160px;}
+.splash_krisha{top:25px;left:440px;}
+.splash_fara{top:95px;left:85px;}
+.splash_per_krilo{top:115px;left:180px;}
+.splash_dveri{top:175px;left:380px;}
+.splash_zad_krilo{top:210px;left:560px;}
+.splash_bamper{top:310px;left:670px;display:block;}
 
 #splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none;z-index:10}
 #splash main{text-align:center;top:150px}
